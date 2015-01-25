@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: 第一篇，新的开始
 ---
 # {{page.title}}
