@@ -1,0 +1,12 @@
+ <header>
+        <h1 class="header">iKen on GitHub</h1>
+        <p class="header">Fight the Pain</p>
+        <ul>
+          <li><a class="buttons github" href="https://github.com/ikenbe">Ken Leung</a></li>
+        </ul>
+        <ul>
+{% for post in site.posts %}
+<li>{{ post.date | date_to_string }} <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+      </header>

@@ -15,18 +15,11 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
-        <h1 class="header">Some Place</h1>
-        <p class="header">whatever</p>
-        <ul>
-          <li><a class="buttons github" href="https://github.com/ikenbe">GitHub Profile</a></li>
-        </ul>
-      </header>
+    {% include header.html %}
+    <section>
 　　　　{{ content }}
-      <footer>
-      </footer>
+    </section>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-
   </body>
 </html>
