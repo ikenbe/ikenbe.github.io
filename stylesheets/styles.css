@@ -245,6 +245,9 @@ h1.header {
 	margin-top: 0;
 }
 
+h2.header{
+	color: #fff;
+}
 
 h1.header, a.header, a.name, header a{
 	color: #fff;
