@@ -1,3 +1,4 @@
 encoding: utf-8
 baseurl: /ikenbe.github.io
 markdown: redcarpet
+paginate: 5
