@@ -247,6 +247,7 @@ h1.header {
 
 h2.header{
 	color: #fff;
+  padding: 0 0 0 0;
 }
 
 h1.header, a.header, a.name, header a{
