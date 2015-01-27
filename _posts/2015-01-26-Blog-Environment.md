@@ -44,6 +44,7 @@ JS 和 CSS 本来就是要人手写的， CoffeeScript 和 LESS SCSS 之类的�
 
 Jekyll 的最大优点之一就是对 Liquid 的支持，通过模板的指令在生成的静态页面里加入动态的内容。 比如 [rsms](rsms.github.com) 在他的首页 html 加入了一些循环、判断、和限制：
 
+{% raw %}
 ```html
 {% for post in site.posts limit:25 %}<a
     href="{{ post.url }}" class="post-excerpt{% if post.photo_url %} photo{% endif %}">
@@ -65,5 +66,6 @@ Jekyll 的最大优点之一就是对 Liquid 的支持，通过模板的指令�
       </div>
     </a>{% endfor %}
 ```
+{% endraw %}
 
 在首页显示日志，限制在25篇以内，判断是否显示为图片日志，判断是否显示摘要，都是很智能的规则。不过我还没找到 Liquid 的这些定义文档，或者应该是 GitHub 预设的这些定义？
