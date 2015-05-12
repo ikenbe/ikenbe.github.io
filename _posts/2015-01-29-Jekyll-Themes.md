@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Jekyll 以及 Jekyll 的模板们
 ---
 

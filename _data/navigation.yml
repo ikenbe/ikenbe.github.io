@@ -1,0 +1,14 @@
+# Site navigation links
+
+- title: Home
+  url:
+
+- title: Posts
+  url: /posts/
+
+- title: GitHub
+  url: https://github.com/ikenbe
+
+- title: About
+  url: /about/
+

@@ -1,4 +1,47 @@
+# Site wide configuration
+
 encoding: utf-8
-baseurl: /ikenbe.github.io
+baseurl: http://blog.iken.be
+url: http://blog.iken.be
+title: Dancing Elephant
+name: Ken Leung
+
+# Jekyll configuration
+permalink:   /:categories/:title/
 markdown: redcarpet
-paginate: 5
+sass:
+  sass_dir: _sass
+  style: compressed
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+
+
+# Site owner
+owner:
+  name: Ken Leung
+  avatar: bio-photo.jpg
+  bio: "The thing is I'm a freak. The worse thing is I'm a smart freak. And the worst is I'm a fearless smart freak."
+  email: ikenbe@gmail.com
+  disqus-shortname:
+  twitter: ikenbe
+  facebook: iKen.Leung
+  google:
+    plus: iKenLeung
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: ikenbe
+  stackoverflow:
+  linkedin:
+  instagram: ikenbe
+  lastfm:
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: iken
+  flickr: #username
