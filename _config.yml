@@ -8,7 +8,7 @@ name: Ken Leung
 
 # Jekyll configuration
 permalink:   /:categories/:title/
-markdown: redcarpet
+markdown: kramdown
 sass:
   sass_dir: _sass
   style: compressed
