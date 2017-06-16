@@ -5,64 +5,16 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-# Site wide configuration
-
-encoding: utf-8
-baseurl: http://ikenbe.github.io
-url: http://ikenbe.github.io
-title: Dancing Elephant
-name: Ken Leung
+# Site Settings
 locale                   : "en"
+encoding                 : utf-8
+title                    : "Dancing Elephant"
 title_separator          : "-"
-description              : "An amazing website."
-repository               : "ikenbe/ikenbe.github.io"
-
-# Jekyll configuration
-permalink:   /:categories/:title/
-markdown: kramdown
-sass:
-  sass_dir: _sass
-  style: compressed
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
-
-# Site Author
-author:
-  name: Ken Leung
-  avatar: bio-photo.jpg
-  bio: "The thing is I'm a freak. The worse thing is I'm a smart freak. And the worst is I'm a fearless smart freak."
-  email: ikenbe@gmail.com
-  disqus-shortname:
-  twitter: ikenbe
-  facebook: iKen.Leung
-  google_plus: iKenLeung
-  github: ikenbe
-  instagram: ikenbe
-  weibo: iken
-  location         : "Oh Canada"
-  email            :
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           :
-  google_plus      :
-  keybase          :
-  lastfm           :
-  linkedin         :
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : 
-  steam            :
-  tumblr           :
-  vine             :
-  xing             :
-  youtube          : 
-
-
-
+name                     : "Ken Leung"
+description              : ""
+url                      : http://ikenbe.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : "ikenbe/ikenbe.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -124,7 +76,36 @@ analytics:
     tracking_id          :
 
 
-
+# Site Author
+author:
+  name             : "Ken Leung"
+  avatar           : "/images/bio-photo.jpg"
+  bio              : "The thing is I'm a freak. The worse thing is I'm a smart freak. And the worst is I'm a fearless smart freak."
+  location         : "Oh Canada"
+  email            : "ikenbe@gmail.com"
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "ikenbe"
+  google_plus      : "ikenleung"
+  keybase          :
+  instagram        : "ikenbe"
+  lastfm           :
+  linkedin         :
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  steam            :
+  tumblr           :
+  twitter          : "ikenbe"
+  vine             :
+  weibo            : "iken"
+  xing             :
+  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
 
 
 # Reading Files

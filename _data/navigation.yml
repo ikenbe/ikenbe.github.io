@@ -1,14 +1,12 @@
-# Site navigation links
-
-- title: Home
-  url:
-
-- title: Posts
-  url: /posts/
-
-- title: GitHub
-  url: https://github.com/ikenbe
-
-- title: About
-  url: /about/
-
+# main links
+main:
+  - title: "Quick-Start Guide"
+    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
