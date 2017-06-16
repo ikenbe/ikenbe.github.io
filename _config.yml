@@ -1,8 +1,8 @@
 # Site wide configuration
 
 encoding: utf-8
-baseurl: http://blog.iken.be
-url: http://blog.iken.be
+baseurl: http://ikenbe.github.io
+url: http://ikenbe.github.io
 title: Dancing Elephant
 name: Ken Leung
 
