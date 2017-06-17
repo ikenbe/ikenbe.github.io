@@ -1,5 +1,5 @@
 ---
-layout: post
+type: posts
 title: 关于写作环境
 ---
 在电脑上我是选择了 GitHub 的 Windows 客户端 + Sublime Text 3 来编辑和提交修改，不但可以很方便地编辑和预览 Markdown 文件，还可以对其它格式的文件很方便地操作。为了保持热情和更方便地更新文档，我还在手机上安装了 Pocket Git + JotterX 来执行相同的事情。这也有助于我对 Git 的版本管理和分支管理有更直观的理解。
