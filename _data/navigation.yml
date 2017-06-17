@@ -4,8 +4,6 @@ main:
     url: https://github.com/ikenbe
   - title: "Posts"
     url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
   - title: "Sitemap"
      url: /sitemap/
   - title: "ABOUT"
