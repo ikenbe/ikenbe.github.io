@@ -1,5 +1,5 @@
 ---
-layout: post
+type: posts
 title: Jekyll 以及 Jekyll 的模板们
 date:  2015-01-29 00:00:01 -0800
 ---
