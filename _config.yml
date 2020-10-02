@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Dancing Elephant"
+title                    : "Couch Elephant"
 title_separator          : "-"
 name                     : "Ken Leung"
 description              : ""
@@ -90,7 +90,7 @@ author:
   facebook         :
   foursquare       :
   github           : "ikenbe"
-  google_plus      : "ikenleung"
+  google_plus      : 
   keybase          :
   instagram        : "ikenbe"
   lastfm           :
