@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Jekyll 以及 Jekyll 的模板们
+date:  2015-01-29 00:00:01 -0800
 ---
 
 今天折腾了很多关于 Jekyll 的东西，甚至为了看看是不是能把主题包里多余的文件去掉在我电脑的 Win7 系统里装了 Nodejs + Bower， 结果反正是不太好。 我先整理整理思绪。
